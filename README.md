@@ -23,20 +23,20 @@ DL系将棋AIとして、AlphaZeroのやり方ではない何らかの方法で�
 > **とにかく強い将棋AIを求めている方へ**
 > 本プロジェクトはフロムスクラッチとして成長を楽しむために公開しているのものです。純粋な強さを求める方は、水匠やdlshogiなどの既存の強力なAIをご利用いただくことをおすすめします。
 
-###Dainagonについて
+### Dainagonについて
 このAIの特殊なところは、開発・実行をすべてDirectMLで行なっています。そのため、ほぼすべてのAI開発者にとって多少不利になります。
 
 メインGPUはRadeon RX9070XTです。
 Radeon系はCUDAが使えないこと、RDNA4の基礎パワーがつよいことから逆に有利です。DirectMLを前提としているため、Radeon勢やArc勢は逆にオススメです。
 
-##使用方法
-###Python系Chunagon
+## 使用方法
+### Python系Chunagon
 後で書く
 
-###C++系Chunagon
+### C++系Chunagon
 開発中
 
-###Dainagon
+### Dainagon
 現状公開予定なし（初代大会版のため）
 
 ## アップデート履歴
